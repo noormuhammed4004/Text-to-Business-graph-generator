@@ -43,3 +43,12 @@ pip install -r requirements.txt
 python app1.py
 
 
+## 🚀 Deployment on Render
+
+1. Connect this repo to [Render](https://render.com/)
+2. Add a `requirements.txt` file
+3. Set **Start Command** as:
+   ```bash
+   gunicorn app1:app
+
+
