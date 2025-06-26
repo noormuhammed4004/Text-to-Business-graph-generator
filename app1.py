@@ -452,6 +452,8 @@ def index():
 
 if __name__ == '__main__':
     print("Starting Flask app...")
-    app.run(debug=True, host='127.0.0.1', port=5002)
+    import os
+    port = int(os.environ.get('PORT', 10000))
+    app.run(host='0.0.0.0', port=port)
 
 
