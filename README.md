@@ -39,4 +39,7 @@ An AI-powered web application that converts natural language business queries in
 
 ---
 
+pip install -r requirements.txt
+python app1.py
+
 
